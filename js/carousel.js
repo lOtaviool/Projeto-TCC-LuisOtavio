@@ -14,8 +14,3 @@ btns.forEach(function(btn) {
   })
 })
 
-// formContato = function (event){
-//   var form = event
-//   console.log(form)
-  
-// }

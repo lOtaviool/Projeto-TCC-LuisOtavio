@@ -25,9 +25,8 @@
 @media (min-width: 830px) {
 
   .secaoInstitucional-coluna {
-    float: left;
-    text-align: left;
-    width: 40%;
+    text-align: center;
+    width: 100%;
   }
 
   .secaoInstitucional-video {

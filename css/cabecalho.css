@@ -66,3 +66,21 @@
   }
 
 }
+
+@media (max-width: 830px) {
+
+  .cabecalho{
+    border-bottom: none;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+
+  .cabecalho-logo {
+    margin-bottom: 2px;
+  }
+
+  .cabecalho-nav {
+    display: none;
+  }
+
+}

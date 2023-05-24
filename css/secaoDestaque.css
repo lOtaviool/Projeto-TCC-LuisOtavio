@@ -3,6 +3,7 @@
   text-align: center;
   background-size: cover;
   background-color: #333;
+  background-image: url(../img/bbb.webp);
   padding: 10em 2em 3em 2em;
   color: #fff;
 }
@@ -14,6 +15,10 @@
   font-family: 'Montserrat', serif;
   font-size: 2em;
   line-height: 1;
+}
+
+.container-div{
+  display: flex;
 }
 
 .secaoDestaque-texto {

@@ -52,11 +52,12 @@
   color: #cf2c2c;
 }
 
-@media (min-width: 830px) {
+@media (max-width: 830px) {
 
   .rodape-logo {
-    max-height: 50px;
-    display: block;
+    display: none;
+    /* max-height: 50px;
+    display: block; */
   }
 
   .rodape .container{
