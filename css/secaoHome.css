@@ -1,5 +1,5 @@
 
-.secaoDestaque {
+.secaoHome {
   text-align: center;
   background-size: cover;
   background-color: #333;
@@ -9,11 +9,11 @@
 }
 
 
-.secaoDestaque-titulo {
+.secaoHome-titulo {
   font-weight: bold;
   margin-bottom: 1em;
   font-family: 'Montserrat', serif;
-  font-size: 2em;
+  font-size: 9em;
   line-height: 1;
 }
 
@@ -21,7 +21,7 @@
   display: flex;
 }
 
-.secaoDestaque-texto {
+.secaoHome-texto {
   max-width: 600px;
   margin: 0 auto 2em auto;
   font-size: 1.25em;
@@ -29,7 +29,7 @@
 
 }
 
-.secaoDestaque-cta {
+.secaoHome-cta {
   background-color: transparent;
   border: 1px solid #fff;
   font-size: 1em;
@@ -43,19 +43,19 @@
   transition: .2s ease-in;
 }
 
-.secaoDestaque-cta:hover,
-.secaoDestaque-cta:focus {
+.secaoHome-cta:hover,
+.secaoHome-cta:focus {
   background: #cf2c2c;
   color: #333;
 }
 
 @media (min-width: 830px) {
 
-  .secaoDestaque {
+  .secaoHome {
     background-image: url(../img/bbb.webp);
   }
 
-  .secaoDestaque-titulo {
+  .secaoHome-titulo {
     font-size: 5vw
   }
 
