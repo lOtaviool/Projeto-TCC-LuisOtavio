@@ -21,6 +21,7 @@
   <link rel="stylesheet" href="css/secaoInstitucional.css">
   <link rel="stylesheet" href="css/rodape.css">    
   <link rel="stylesheet" href="css/dialogNewsletter.css">
+  <link rel="stylesheet" href="css/dialogNewsletter2.css">
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 </head>
@@ -100,12 +101,12 @@
         </h2>
 
         <div class="secaoPlanos-plano secaoPlanos-plano--start">
-          <h3 class="secaoPlanos-plano-titulo">Rick Rodrigues</h3>
-          <img src="img/android.png" alt="Ícone do Android">
+          <h3 class="secaoPlanos-plano-titulo">Daniel Pires Gonçalves</h3>
+          <img src="img/palestrante.png" style="width: 120px;" alt="Ícone do Android">
           <ul class="secaoPlanos-plano-itens">
-            <li>5 manutenções mensais</li>
-            <li>App SEO</li>
-            <li>1 sistema operacional</li>
+            <li>Data Sciene</li>
+            <li>Banco de Dados</li>
+            <li>Sistema Operacional Linux</li>
           </ul>
           <!-- <a href="#" class="btnPadrao secaoPlanos-plano-btn">
             Assinar plano
@@ -113,12 +114,12 @@
         </div>
 
         <div class="secaoPlanos-plano secaoPlanos-plano--start">
-          <h3 class="secaoPlanos-plano-titulo">Rick Rodrigues</h3>
-          <img src="img/android.png" alt="Ícone do Android">
+          <h3 class="secaoPlanos-plano-titulo">Pedro Figueiredo</h3>
+          <img src="img/palestrante.png" style="width: 120px;" alt="Ícone do Android">
           <ul class="secaoPlanos-plano-itens">
-            <li>5 manutenções mensais</li>
-            <li>App SEO</li>
-            <li>1 sistema operacional</li>
+            <li>Desenvolvimento Web</li>
+            <li>Design UX/UI</li>
+            <li>Acessibilidade na Web</li>
           </ul>
           <!-- <a href="#" class="btnPadrao secaoPlanos-plano-btn">
             Assinar plano
@@ -126,12 +127,12 @@
         </div>
 
         <div class="secaoPlanos-plano secaoPlanos-plano--start">
-          <h3 class="secaoPlanos-plano-titulo">Rick Rodrigues</h3>
-          <img src="img/android.png" alt="Ícone do Android">
+          <h3 class="secaoPlanos-plano-titulo">Antônio Carlos Guimarães</h3>
+          <img src="img/palestrante.png" style="width: 120px;" alt="Ícone do Android">
           <ul class="secaoPlanos-plano-itens">
-            <li>5 manutenções mensais</li>
-            <li>App SEO</li>
-            <li>1 sistema operacional</li>
+            <li>Desenvolvimento Web</li>
+            <li>Banco de Dados</li>
+            <li>Filas de Armazenamento</li>
           </ul>
           <!-- <a href="#" class="btnPadrao secaoPlanos-plano-btn">
             Assinar plano
@@ -139,12 +140,12 @@
         </div>
         
         <div class="secaoPlanos-plano secaoPlanos-plano--start">
-          <h3 class="secaoPlanos-plano-titulo">Rick Rodrigues</h3>
-          <img src="img/android.png" alt="Ícone do Android">
+          <h3 class="secaoPlanos-plano-titulo">Fernando Silva Lima </h3>
+          <img src="img/palestrante.png" style="width: 120px;" alt="Ícone do Android">
           <ul class="secaoPlanos-plano-itens">
-            <li>5 manutenções mensais</li>
-            <li>App SEO</li>
-            <li>1 sistema operacional</li>
+            <li>Inteligência Artificial</li>
+            <li>Machine Learn</li>
+            <li>Internet das Coisas</li>
           </ul>
           <!-- <a href="#" class="btnPadrao secaoPlanos-plano-btn">
             Assinar plano
@@ -256,9 +257,9 @@
   
           <a href="#" class="secaoDestaques-link">
             <div class="secaoDestaques-destaque">
-              <img src="img/dicas-fotografia.png" class="secaoDestaques-destaque-img">
+              <img src="img/Prototipação.jpg" style="width: 260px;height: 130px;" class="secaoDestaques-destaque-img">
               <p class="secaoDestaques-destaque-titulo"  id="tituloDestaque2">
-                Veja dicas de como fotografar usando seu celular
+                Saiba tudo sobre a criação de protótipos
               </p>
             </div>
           </a>
@@ -300,7 +301,7 @@
           INSCRIÇÃO
         </h2>
 
-        <form id="form-contato" class="secaoContato-form" click="formContato()">
+        <form id="form-contato" class="secaoContato-form">
 
           <p class="secaoContato-form-legend">
             Estamos esperando por você!
@@ -353,13 +354,32 @@
 
           <div class="contatoCampo">
             <br>
-            <button class="btnPadrao" type="submit">
+            <button class="btnPadrao" id="dialog-form" type="submit">
               Enviar Inscrição
             </button>
           </div>
         </form>
 
       </div> <!--fim .container da .secaoContato-->
+
+      <div class="dialogNewsletter2" id="dialogNewsletter2">
+        <div class="dialogNewsletter2-body">
+
+          <h2 class="dialogNewsletter2-titulo">Inscrição realizada!</h2>
+          <h3 class="dialogNewsletter2-texto">
+            Esperamos por você no dia 26 de Novembro de 2022
+          </h3>
+          <form class="dialogNewsletter2-form">
+            <!-- <button id="btn-x" class="dialogNewsletter2-btn">
+              Fechar
+            </button> -->
+            <button class="dialogNewsletter2-fechar">
+              X
+            </button>
+          </form>
+        </div>
+        <div class="dialogNewsletter2-overlay"></div>
+      </div> <!--fim .dialogNewsletter-->
 
     </section> <!--fim .secaoContato-->
 
@@ -409,6 +429,7 @@
   </footer>
   <script src="js/carousel.js"></script>
   <script src="js/dialog.js"></script>
+  <script src="js/dialog-form.js"></script>
   <script src="js/main.js"></script>
 </body>
 </html>
