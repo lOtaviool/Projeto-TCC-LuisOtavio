@@ -4,13 +4,13 @@
 }
 
 .secaoSobre-texto {
-  margin-bottom: 1em;
+  margin-bottom: 2em;
 }
 
 .secaoSobre-plataformas {
   display: flex;
   justify-content: space-around;
-  margin-bottom: 1em;
+  /* margin-bottom: 1em; */
 }
 
 .secaoSobre-imgDestaque {
