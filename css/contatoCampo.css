@@ -79,7 +79,7 @@
   display: inline-block;
 }
 
-.contatoCampo .contatoCampo--validouFoi {
+/* .contatoCampo .contatoCampo--validouFoi {
   border: 2px solid #219653;
   background-color: #fff;
   position: relative;
@@ -89,9 +89,9 @@
   border: 2px solid #FF0000;
   background-color: #fff;
   position: relative;
-}
+} */
 
-.contatoCampo--sucesso:before {
+/* .contatoCampo--sucesso:before {
   content: '';
   display: inline-block;
   width: 33px;
@@ -113,5 +113,5 @@
   right: .4em;
   transform: translateY(112%) scale(.65);
   background-image: url(../img/validacao-erro.png);
-}
+} */
 
